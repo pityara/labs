@@ -1,0 +1,7 @@
+version: "3"
+services:
+  ownvector:
+    build:
+      context: ownvector
+    ports:
+      - 8080:8000
